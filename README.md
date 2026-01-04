@@ -5,7 +5,7 @@ Configuration for Arch Linux
 ```
 pacman -S stow
 ```
-In ~/.config/config
+In config/dotfiles
 ```
-stow dotfiles
+stow -t ~ sway
 ```
